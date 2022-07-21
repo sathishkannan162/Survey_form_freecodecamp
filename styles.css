@@ -1,0 +1,79 @@
+h1, p {
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  padding-bottom: 15px;
+  font-style: italic;
+  font-family: "Cooper Hewitt", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(115deg,  rgba(127, 0, 255, 0.5),  rgba(127, 0, 255, 0.4)), url("https://www.psychologicalscience.org/redesign/wp-content/uploads/2011/04/ThinkstockPhotos-504382222-1024x683.jpg");
+  font-family:'Poppins', sans-serif; 
+  color: white;
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+
+
+form {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 0;
+  margin: 0 30%;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding:  0 15px;
+  padding-bottom: 20px;
+}
+
+fieldset {
+  border: 0;
+}
+
+
+label {
+  display: block;
+  padding: 0.7em 0;
+  vertical-align: middle;
+}
+
+
+input[type="radio"], input[type="checkbox"] {
+  width: 5%;
+  height: 1em;
+} 
+
+.radio {
+  padding: 0;
+}
+
+select, input, textarea {
+  margin: 0.5em 0;
+ border-radius: 3px;
+  border: 0;
+  padding: 1px 5px;
+  width: 100%;
+}
+
+select, input {
+  height: 2em;
+}
+select {
+  color: grey;
+  padding: 5px 0; 
+  width: 102%;
+}
+
+
+input[type="submit"] {
+  background-color: #65CE65;
+  color: white;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 102%;
+}
